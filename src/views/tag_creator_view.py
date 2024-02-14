@@ -1,6 +1,7 @@
+from src.controllers.tag_creator_controller import TagCreatorController
 from src.views.http_types.http_request import HttpRequest
 from src.views.http_types.http_response import HttpResponse
-from src.controllers.tag_creator_controller import TagCreatorController
+
 
 class TagCreatorView():
 

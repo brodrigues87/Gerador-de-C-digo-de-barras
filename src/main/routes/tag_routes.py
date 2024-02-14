@@ -1,9 +1,10 @@
 from flask import Blueprint, request, jsonify
 
 from src.errors.error_handler import handle_error
+from src.validators.tag_creator_validator import tag_cretor_validator
 from src.views.http_types.http_request import HttpRequest
 from src.views.tag_creator_view import TagCreatorView
-from src.validators.tag_creator_validator import tag_cretor_validator
+
 
 tags_routes_bp = Blueprint('tags_routes', __name__)
 
